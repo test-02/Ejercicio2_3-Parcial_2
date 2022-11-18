@@ -103,10 +103,6 @@ public class MainActivity extends AppCompatActivity{
         Toast.makeText(getApplicationContext(), "Foto agregada con exito", Toast.LENGTH_LONG).show();
 
         db.close();
-
-//        Resources res = this.getResources();
-//        Drawable myImage = ResourcesCompat.getDrawable(res, R.drawable.userr, null);
-//        imageView.setImageDrawable(myImage);
     }
 
     private void permisosCamara(){
